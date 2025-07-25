@@ -6,7 +6,9 @@
   color: white;
   padding-bottom: 60px;
   margin: 0 auto;
+  
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -104,4 +106,41 @@ section > div:nth-child(2) > div > div p {
   font-size: 14px;
   color: #d3d3d3;
 }
+.testimonial-section {
+  background-color: #C271FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 392px;
+  width: 100%; /* Will fill up to 1440px screen width */
+  padding: 0 100px;
+  box-sizing: border-box;
+  gap: 50px;
+}
+
+.testimonial-section img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-section blockquote {
+  font-size: 22px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial-section h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial-section p {
+  font-style: italic;
+  margin: 0;
+}
+
 
