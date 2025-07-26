@@ -5,10 +5,8 @@
   background-repeat: no-repeat;
   color: white;
   padding-bottom: 60px;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -70,24 +68,20 @@ section button:hover {
 /* Learn from the pros section */
 section h2 {
   text-align: center;
-  margin-top: 1000px;
+  margin-top: 100px;
   font-size: 75px;
-  color: #ffffFF;
+  color:#fffff;
   font-weight: mixed;
 }
 /* Profile grid */
-section > div:nth-child(2) > div {
+.u{
   display: flex;
   justify-content: center;
   gap: 300px;
   margin-top: 40px;
   flex-wrap: wrap;
 }
-/* Individual profile card */
-section > div:nth-child(2) > div > div {
-  text-align: center;
-  max-width: 150px;
-}
+
 section > div:nth-child(2) > div > div img {
   width: 300px;
   height: 300px;
@@ -142,5 +136,127 @@ section > div:nth-child(2) > div > div p {
   font-style: italic;
   margin: 0;
 }
+/* Section styles */
+.me {
+  padding: 80px 60px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
 
+/* Heading */
+.me h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 1000;
+  margin-bottom: 60px;
+  color: #071629;
+}
+.me h2 span {
+  color: #C271FF;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/* Cards container (Flex row) */
+.please {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+/* Individual card styles */
+.cardone,
+.cardtwo,
+.cardthree,
+.cardfour {
+  width: 320px;
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.cardone img,
+.cardtwo img,
+.cardthree img,
+.cardfour img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.finally1 >img,
+.finally2 >img,
+.finally3 >img,
+.finally4 >img {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* Title */
+.cardone h3,
+.cardtwo h3,
+.cardthree h3,
+.cardfour h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #071629;
+}
+
+/* Description text */
+.cardone p,
+.cardtwo p,
+.cardthree p,
+.cardfour p {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Author section (image + name + rating) */
+.cardone > div,
+.cardtwo > div,
+.cardthree > div,
+.cardfour > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+
+
+/* Author name */
+.cardone h4,
+.cardtwo h4,
+.cardthree h4,
+.cardfour h4 {
+  font-size: 13px;
+  color: #C271FF;
+  font-weight: 500;
+  margin: 0;
+}
+/* Rating image inside <p> */
+.cardone div  img,
+.cardtwo div img,
+.cardthree div img,
+.cardfour div img {
+  width: 10px;
+  margin-top: 4px;
+  height:10;
+}
+
+
+/* Duration (8 min text) */
+.cardone > p:last-of-type,
+.cardtwo > p:last-of-type,
+.cardthree > p:last-of-type,
+.cardfour > p:last-of-type {
+  font-size: 13px;
+  color: #C271FF;
+  font-weight: 500;
+  margin-top: 6px;
+}
 
