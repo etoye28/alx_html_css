@@ -102,7 +102,7 @@ section > div:nth-child(2) > div > div p {
 }
 .testimonial-section {
   background-color: #C271FF;
-  color: white;
+  color:#ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,3 +280,79 @@ section > div:nth-child(2) > div > div p {
   height: 40px;
   margin-bottom: 20px;
 }
+.good {
+  padding: 80px 20px;
+  background-color:#fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  text-align: center;
+}
+.good h2 {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  color:#071629
+}
+.good > div {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+/* Each column */
+.good > div > div {
+  width: 500px;
+  max-width: 90%;
+}
+.good h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color:#071629;
+}
+footer {
+  background-color: #071629; /* dark navy background */
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer section {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Top row: logo and icons */
+footer section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top:1px;
+  gap:80px;
+}
+/* Container that holds the icons */
+footer section > div > div {
+  display: flex;
+  gap: 20px; /* Adjust this value for more or less spacing */
+  
+}
+
+footer img {
+  height: 30px;
+  margin:0;
+}
+footer i:hover {
+  color: #C271FF; /* optional hover color */
+}
+footer p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+
