@@ -259,4 +259,23 @@ section > div:nth-child(2) > div > div p {
   font-weight: 500;
   margin-top: 6px;
 }
-
+.easy {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.easy h2 span{
+     color: #C271FF;
+}
+.easy > div {
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px;
+  vertical-align: top;
+}
+.easy img {
+  height: 40px;
+  margin-bottom: 20px;
+}
